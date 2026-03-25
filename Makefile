@@ -132,7 +132,7 @@ include .config
 
 PATCHES-$(CONFIG_KEYBOARD) += \
     001_keysym.patch 002_dead_keys.patch 003_keysym_replacements.patch \
-    004_fn_keys.patch 005_fn_key_swap.patch
+    004_fn_keys.patch 005_fn_key_swap.patch 008_capslock_led.patch
 
 PATCHES-$(CONFIG_BATTERY) += \
     006_battery_validate.patch
